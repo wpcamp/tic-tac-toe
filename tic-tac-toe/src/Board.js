@@ -17,27 +17,7 @@ export default function Board() {
     const [win, setWin] = useState(false)
     const history = window.history
 
-    // const handleSetSpot = (e, spot) => {
-    //     if (spot == 1) {
-    //         setSpot1(e.target.textContent)
-    //     } else if (spot == 2) {
-    //         setSpot2(e.target.textContent)
-    //     }else if (spot == 3) {
-    //         setSpot3(e.target.textContent)
-    //     }else if (spot == 4) {
-    //         setSpot4(e.target.textContent)
-    //     }else if (spot == 5) {
-    //         setSpot5(e.target.textContent)
-    //     }else if (spot == 6) {
-    //         setSpot6(e.target.textContent)
-    //     } else if (spot == 7) {
-    //         setSpot7(e.target.textContent)
-    //     }else if (spot == 8) {
-    //         setSpot8(e.target.textContent)
-    //     } else if (spot == 9) {
-    //         setSpot9(e.target.textContent)
-    //     }
-    // }
+    
 
     const handleWin = () => {
         if ((spot1.length && spot2.length && spot3.length) && (spot1 === spot2 && spot2 === spot3)) {
